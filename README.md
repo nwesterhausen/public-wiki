@@ -1,4 +1,4 @@
-# howto-wiki
+# Public Wiki
 Public how-to wiki, uses mkdocs
 
 ## Content

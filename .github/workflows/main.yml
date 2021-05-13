@@ -1,0 +1,42 @@
+name: Deploy
+on:
+  push:
+    branches:
+      - main
+jobs:
+  build:
+    name: Deploy docs to GitHub Pages
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - name: Install Python
+        uses: actions/setup-python@v1
+      - name: Install Packages
+        uses: BSFishy/pip-action@v1
+        with:
+          packages: |
+            mkdocs
+            pygments
+            mkdocs-material
+            mkdocs-safe-text-plugin
+            git+https://github.com/jldiaz/mkdocs-plugin-tags.git
+            mkdocs-markdownextradata-plugin
+            mkdocs-codeinclude-plugin
+            mkdocs-git-revision-date-localized-plugin
+            mkdocs-git-authors-plugin
+            mkdocs-blog-plugin
+            mkdocs-img2fig-plugin
+            mkdocs-mermaid2-plugin
+            mkdocs-awesome-pages-plugin
+            git+https://github.com/andyoakley/mkdocs-navtitles
+            mkdocs-redirects 
+      - name: Build
+        run: mkdocs build
+      - name: Publish  
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./site

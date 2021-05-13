@@ -6,4 +6,4 @@ authors:
 date: 2018-11-23
 ---
 
-Site for how-to material which is not specific to my homelab environment.
+Site for how-to material which is not specific to my homelab environment. Not a lot here yet.

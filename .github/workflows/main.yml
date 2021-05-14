@@ -37,6 +37,8 @@ jobs:
             mkdocs-awesome-pages-plugin
             git+https://github.com/andyoakley/mkdocs-navtitles
             mkdocs-redirects 
+            mkdocs-minify-plugin
+            mkdocs-git-authors-plugin
       - name: Build
         run: mkdocs build
       - name: Publish  

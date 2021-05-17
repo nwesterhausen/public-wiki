@@ -1,4 +1,14 @@
-
 site_name: "Nick's Public Wiki"
+site_url: https://nwest.wiki
+repo_url: https://github.com/nwesterhausen/public-wiki
+edit_uri: edit/main/docs
+site_author: Nicholas Westerhausen
+copyright: ©2021 Nick Westerhausen
 theme:
   name: 'material'
+  icon:
+    repo: fontawesome/brands/github-square
+plugins:
+  - search
+  - minify:
+      minify_html: true

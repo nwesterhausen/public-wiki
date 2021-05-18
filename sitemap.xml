@@ -1,31 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url>
-     <loc>None</loc>
-     <lastmod>2021-05-14</lastmod>
+     <loc>https://nwest.wiki/</loc>
+     <lastmod>2021-05-18</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
-     <lastmod>2021-05-14</lastmod>
+     <loc>https://nwest.wiki/disable-files-might-be-harful/</loc>
+     <lastmod>2021-05-18</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
-     <lastmod>2021-05-14</lastmod>
+     <loc>https://nwest.wiki/excel-sort-ipv4/</loc>
+     <lastmod>2021-05-18</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
-     <lastmod>2021-05-14</lastmod>
+     <loc>https://nwest.wiki/Development/clear-browser-cache/</loc>
+     <lastmod>2021-05-18</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
-     <lastmod>2021-05-14</lastmod>
+     <loc>https://nwest.wiki/Home%20Assistant/docker-influxdb/</loc>
+     <lastmod>2021-05-18</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
-     <lastmod>2021-05-14</lastmod>
+     <loc>https://nwest.wiki/Home%20Assistant/imap-content-sensor/</loc>
+     <lastmod>2021-05-18</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>None</loc>
-     <lastmod>2021-05-14</lastmod>
+     <loc>https://nwest.wiki/Linux/archive-subdirs/</loc>
+     <lastmod>2021-05-18</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://nwest.wiki/Linux/dummy-files/</loc>
+     <lastmod>2021-05-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>

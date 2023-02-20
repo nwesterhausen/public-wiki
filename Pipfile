@@ -20,6 +20,7 @@ mkdocs-redirects = "*"
 mkdocs-navtitles = {editable = true, git = "https://github.com/andyoakley/mkdocs-navtitles"}
 tags-macros-plugin = {git = "https://github.com/jldiaz/mkdocs-plugin-tags.git"}
 mkdocs-windmill = "*"
+importlib-metadata = "*"
 
 [dev-packages]
 

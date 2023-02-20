@@ -7,7 +7,7 @@ copyright: ©2021 Nick Westerhausen
 theme:
   name: 'material'
   icon:
-    repo: fontawesome/brands/github-square
+    repo: bootstrap/github
 plugins:
   - search
   - minify:

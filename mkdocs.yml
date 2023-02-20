@@ -6,8 +6,6 @@ site_author: Nicholas Westerhausen
 copyright: ©2021 Nick Westerhausen
 theme:
   name: 'material'
-  icon:
-    repo: bootstrap/github
 plugins:
   - search
   - minify:

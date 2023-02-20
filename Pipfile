@@ -21,6 +21,7 @@ mkdocs-navtitles = {editable = true, git = "https://github.com/andyoakley/mkdocs
 tags-macros-plugin = {git = "https://github.com/jldiaz/mkdocs-plugin-tags.git"}
 mkdocs-windmill = "*"
 importlib-metadata = "*"
+typing-extensions = "*"
 
 [dev-packages]
 

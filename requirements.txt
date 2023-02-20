@@ -10,6 +10,7 @@ mkdocs-git-authors-plugin
 mkdocs-blog-plugin 
 mkdocs-img2fig-plugin 
 mkdocs-mermaid2-plugin 
+mkdocs-minify-plugin
 mkdocs-awesome-pages-plugin 
 git+https://github.com/andyoakley/mkdocs-navtitles 
 mkdocs-redirects 

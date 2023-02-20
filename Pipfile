@@ -6,7 +6,6 @@ name = "pypi"
 [packages]
 mkdocs = "*"
 pygments = "*"
-mkdocs-material = "*"
 mkdocs-safe-text-plugin = "*"
 mkdocs-markdownextradata-plugin = "*"
 mkdocs-codeinclude-plugin = "*"
@@ -20,7 +19,7 @@ mkdocs-awesome-pages-plugin = "*"
 mkdocs-redirects = "*"
 mkdocs-navtitles = {editable = true, git = "https://github.com/andyoakley/mkdocs-navtitles"}
 tags-macros-plugin = {git = "https://github.com/jldiaz/mkdocs-plugin-tags.git"}
-mkdocs-boring-theme = "*"
+mkdocs-windmill = "*"
 
 [dev-packages]
 

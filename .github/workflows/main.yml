@@ -13,7 +13,7 @@ jobs:
         with:
           fetch-depth: 0
       - name: Install Python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v4
       - name: Install Wheel Package
         uses: BSFishy/pip-action@v1
         with:

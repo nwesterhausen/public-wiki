@@ -5,7 +5,7 @@ edit_uri: edit/main/docs
 site_author: Nicholas Westerhausen
 copyright: ©2023 Nick Westerhausen
 theme:
-  name: 'lantana'
+  name: 'boring'
 plugins:
   - search
   - minify:

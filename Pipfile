@@ -1,0 +1,28 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+mkdocs = "*"
+pygments = "*"
+mkdocs-material = "*"
+mkdocs-safe-text-plugin = "*"
+mkdocs-markdownextradata-plugin = "*"
+mkdocs-codeinclude-plugin = "*"
+mkdocs-git-revision-date-localized-plugin = "*"
+mkdocs-git-authors-plugin = "*"
+mkdocs-blog-plugin = "*"
+mkdocs-img2fig-plugin = "*"
+mkdocs-mermaid2-plugin = "*"
+mkdocs-minify-plugin = "*"
+mkdocs-awesome-pages-plugin = "*"
+mkdocs-redirects = "*"
+mkdocs-navtitles = {editable = true, git = "https://github.com/andyoakley/mkdocs-navtitles"}
+tags-macros-plugin = {git = "https://github.com/jldiaz/mkdocs-plugin-tags.git"}
+mkdocs-boring-theme = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.7"

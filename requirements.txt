@@ -14,3 +14,4 @@ mkdocs-minify-plugin
 mkdocs-awesome-pages-plugin 
 git+https://github.com/andyoakley/mkdocs-navtitles 
 mkdocs-redirects 
+lantana
